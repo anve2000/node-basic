@@ -1,4 +1,4 @@
-const fs = require("fs");
+// THREADPOOL PART 1
 const crypto = require("crypto");
 
 crypto.pbkdf2("password", "salt", 5000000, 50, "sha512", (err, key) => {
